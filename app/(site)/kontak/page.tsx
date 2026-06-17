@@ -66,18 +66,17 @@ export default function KontakPage() {
                   </a>
                 </div>
 
-                {/* Hours */}
+                {/* Phone */}
                 <div>
                   <h3 className="mb-2 font-semibold text-gray-900">
-                    Jam Operasional
+                    Nomor Telepon
                   </h3>
-                  <p className="text-gray-700">
-                    Senin - Jumat: 08:00 - 17:00
-                    <br />
-                    Sabtu: 09:00 - 12:00
-                    <br />
-                    Minggu & Hari Libur: Tutup
-                  </p>
+                  <a
+                    href={`tel:+62${SITE_CONFIG.phone}`}
+                    className="text-[#1A63AB] hover:underline"
+                  >
+                    +62 {SITE_CONFIG.phone}
+                  </a>
                 </div>
 
                 {/* Map */}

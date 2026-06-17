@@ -22,16 +22,16 @@ export function HeroSection() {
         priority
       />
       
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      {/* Overlay for better text readability - darker for improved contrast */}
+      <div className="absolute inset-0 bg-black/60"></div>
       
       {/* Content */}
       <Container className="relative z-10 text-center py-20 md:py-32 h-full flex flex-col justify-center">
-        <h1 className="mb-8 text-3xl font-bold md:text-5xl">
-          PENDIDIKAN INKLUSIF UNTUK SEMUA
+        <h1 className="mb-6 text-3xl font-bold md:text-5xl text-white drop-shadow-lg">
+          PENDIDIKAN INKLUSIF<br />UNTUK SEMUA
         </h1>
-        <p className="mb-8 text-lg md:text-xl text-blue-100">
-          PKBM SEHATI hadir sebagai solusi Pendidikan dan Keterampilan untuk masa depan yang lebih baik
+        <p className="mb-8 max-w-2xl mx-auto text-base md:text-lg text-white drop-shadow-md leading-relaxed">
+          Solusi Pendidikan dan Keterampilan untuk Masa Depan yang Lebih Baik
         </p>
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
           <Link href="/kontak">

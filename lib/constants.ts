@@ -21,9 +21,8 @@ export const SITE_CONFIG = {
 
 export const NAVIGATION_ITEMS = [
   { label: 'Beranda', href: '/' },
-  { label: 'Kurikulum', href: '/kurikulum' },
+  { label: 'Gallery', href: '/gallery' },
   { label: 'Program', href: '/program' },
-  { label: 'Artikel', href: '/artikel' },
   { label: 'Kontak', href: '/kontak' },
 ];
 
@@ -211,10 +210,10 @@ export const CTA_BUTTONS = {
 };
 
 export const SOCIAL_LINKS = {
-  youtube: 'https://youtube.com/PKBMSEHATI',
-  facebook: 'https://facebook.com/PkbmSehati',
-  tiktok: 'https://tiktok.com/pkbm.sehati1',
-  whatsapp: 'https://wa.me/081385700823',
+  youtube: 'https://www.youtube.com/@pkbmsehati',
+  facebook: 'https://www.facebook.com/people/Pkbm-Sehati/pfbid0bDoehZznEc1M1B4wgpGaKwfQ17s7yEA3Yd64RCyF9FkVCqQBCwVwqEzsfJXXngL1l/',
+  tiktok: 'https://www.tiktok.com/@pkbm.sehati1?_r=1&_t=ZS-93MCjJk0O84',
+  whatsapp: 'https://api.whatsapp.com/send/?phone=6281385700823&text&type=phone_number&app_absent=0',
   instagram: 'https://instagram.com/sehati.pkbm',
   email: 'pkbmsehati25@gmail.com',
 };
