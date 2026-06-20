@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 /**
@@ -55,7 +56,7 @@ export const MDXComponents = {
     />
   ),
   img: (props: any) => (
-    <img
+    <Image
       className="my-6 h-auto w-full rounded-lg"
       {...props}
       alt={props.alt || 'Article image'}
