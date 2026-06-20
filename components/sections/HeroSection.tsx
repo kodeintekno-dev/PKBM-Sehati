@@ -41,7 +41,7 @@ export function HeroSection() {
             <Button
               variant="primary"
               size="lg"
-              className="w-full rounded-full bg-[#1A63AB] text-white hover:bg-[#093C7D] border-none shadow-lg py-6 text-lg"
+              className="w-full bg-[#1A63AB] text-white hover:bg-[#093C7D] border-none shadow-lg"
             >
               {CTA_BUTTONS.enroll}
             </Button>
@@ -50,7 +50,7 @@ export function HeroSection() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full rounded-full border-2 border-white/70 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-[#1A63AB] py-6 text-lg"
+              className="w-full border-2 border-white/70 bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-[#1A63AB]"
             >
               {CTA_BUTTONS.viewPrograms}
             </Button>

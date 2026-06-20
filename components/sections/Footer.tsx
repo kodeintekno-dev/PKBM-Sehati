@@ -33,7 +33,7 @@ export function Footer() {
             <p className="mb-8 text-base text-gray-600 leading-relaxed max-w-sm">
               {SITE_CONFIG.description}
             </p>
-            
+
             {/* Social Links */}
             <div className="flex flex-wrap gap-4">
               <a
@@ -86,7 +86,7 @@ export function Footer() {
                 className="flex items-center justify-center w-12 h-12 bg-gray-50 rounded-full transition-all hover:bg-[#F0F9FF] hover:-translate-y-1 hover:shadow-md"
                 aria-label="Instagram"
               >
-                <Image src="/images/instagram.png" alt="Instagram" width={32} height={32} />
+                <Image src="/images/instagram.png" alt="Instagram" width={25} height={25} />
               </a>
             </div>
           </div>

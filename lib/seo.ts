@@ -4,6 +4,9 @@ import { SITE_CONFIG } from './constants';
 export function generateSiteMetadata(): Metadata {
   return {
     metadataBase: new URL(SITE_CONFIG.url),
+    icons: {
+      icon: '/images/logofinal.png?v=update-1',
+    },
     title: {
       template: '%s | PKBM SEHATI',
       default: 'PKBM SEHATI - Pendidikan Kesetaraan untuk Semua',

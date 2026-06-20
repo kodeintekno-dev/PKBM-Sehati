@@ -89,10 +89,10 @@ export default function KontakPage() {
                       Nomor Telepon
                     </h3>
                     <a
-                      href={`tel:+62${SITE_CONFIG.phone}`}
+                      href={`tel:${SITE_CONFIG.phone}`}
                       className="text-[#1A63AB] hover:underline text-lg font-medium"
                     >
-                      +62 {SITE_CONFIG.phone}
+                      {SITE_CONFIG.phone}
                     </a>
                   </div>
                 </div>

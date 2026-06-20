@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://pkbmsehaticikarang.sch.id',
   locale: 'id_ID',
   email: 'pkbmsehati25@gmail.com',
-  phone: '081385700823',
+  phone: '+6281385700823',
   address: {
     street: 'Perum CINITY Blok E1A No.12D',
     city: 'Cikarang Utara',

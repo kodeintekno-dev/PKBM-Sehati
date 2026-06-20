@@ -67,30 +67,30 @@ export function LayananPengembangan() {
               <div className="lg:w-2/3">
                 <h4 className="text-xl font-bold text-gray-900 mb-6">Jenis-Jenis Layanan ULD</h4>
                 <div className="grid sm:grid-cols-2 gap-6">
-                  <Card className="p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-4">
+                  <Card className="h-full flex flex-col p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-4 shrink-0">
                       <BrainCircuit className="w-6 h-6" />
                     </div>
                     <h5 className="text-xl font-bold text-gray-900 mb-3">Terapi Wicara</h5>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed flex-grow">
                       Membantu peserta didik mengembangkan kemampuan komunikasi, bahasa, bicara, serta kemampuan memahami dan menyampaikan informasi dengan lebih baik.
                     </p>
                   </Card>
-                  <Card className="p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
-                    <div className="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4">
+                  <Card className="h-full flex flex-col p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="w-12 h-12 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center mb-4 shrink-0">
                       <Activity className="w-6 h-6" />
                     </div>
                     <h5 className="text-xl font-bold text-gray-900 mb-3">Okupasi Terapi / Sensori Integrasi</h5>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed flex-grow">
                       Meningkatkan kemampuan motorik halus, konsentrasi, kemandirian, dan keterampilan aktivitas sehari-hari melalui kegiatan terstruktur dan menyenangkan.
                     </p>
                   </Card>
-                  <Card className="p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow sm:col-span-2">
-                    <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-4">
+                  <Card className="h-full flex flex-col p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow sm:col-span-2">
+                    <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center mb-4 shrink-0">
                       <Accessibility className="w-6 h-6" />
                     </div>
                     <h5 className="text-xl font-bold text-gray-900 mb-3">Fisioterapi</h5>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed flex-grow">
                       Mengembangkan kemampuan gerak, keseimbangan, koordinasi, dan kekuatan tubuh sesuai kondisi masing-masing untuk mendukung mobilitas dan kualitas hidup yang mandiri.
                     </p>
                   </Card>

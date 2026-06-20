@@ -91,7 +91,7 @@ export function Header() {
             <div className="border-t border-gray-100 p-6 mt-2">
               <Link
                 href="/kontak"
-                className="block w-full rounded-full bg-[#1A63AB] py-3.5 text-center text-lg font-bold text-white transition-colors hover:bg-[#093C7D]"
+                className="block w-full rounded-xl bg-[#1A63AB] py-3.5 text-center text-lg font-bold text-white transition-colors hover:bg-[#093C7D]"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {CTA_BUTTONS.contact}
