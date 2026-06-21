@@ -1,4 +1,4 @@
-import Image from 'next/image';
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 
 /**
@@ -56,7 +56,7 @@ export const MDXComponents = {
     />
   ),
   img: (props: any) => (
-    <Image
+    <img
       className="my-6 h-auto w-full rounded-lg"
       {...props}
       alt={props.alt || 'Article image'}

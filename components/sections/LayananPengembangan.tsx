@@ -38,7 +38,7 @@ export function LayananPengembangan() {
           {/* A. Unit Layanan Disabilitas (ULD) */}
           <div className="relative scroll-mt-24" id="uld">
             <div className="flex flex-col lg:flex-row gap-12 items-start">
-              <div className="lg:w-1/3 sticky top-32">
+              <div className="lg:w-1/3 lg:sticky lg:top-32">
                 <div className="w-16 h-16 bg-rose-100 text-rose-600 rounded-2xl flex items-center justify-center mb-6 shadow-sm">
                   <HeartHandshake className="w-8 h-8" />
                 </div>
@@ -213,7 +213,7 @@ export function LayananPengembangan() {
 
             <div className="bg-gradient-to-r from-purple-900 to-[#1A63AB] rounded-3xl p-8 md:p-12 text-center shadow-xl text-white">
               <blockquote className="text-xl md:text-2xl font-medium leading-relaxed italic mb-4">
-                &#34;Setiap anak memiliki potensi untuk berkarya. Dengan kesempatan dan pendampingan yang tepat, karya sederhana hari ini dapat menjadi bekal berharga untuk masa depan.&#34;
+                &quot;Setiap anak memiliki potensi untuk berkarya. Dengan kesempatan dan pendampingan yang tepat, karya sederhana hari ini dapat menjadi bekal berharga untuk masa depan.&quot;
               </blockquote>
             </div>
           </div>
