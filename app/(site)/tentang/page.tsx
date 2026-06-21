@@ -2,6 +2,7 @@ import { Container } from '@/components/ui/Container';
 import { VisiMisiSection } from '@/components/sections/VisiMisiSection';
 import { Metadata } from 'next';
 import { History, Award } from 'lucide-react';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Tentang Kami',
@@ -73,7 +74,7 @@ export default function TentangKamiPage() {
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-amber-100 flex gap-5 items-center">
-                  <img src="/images/ak.png" alt="Akreditasi" className="w-24 h-24 object-contain shrink-0" />
+                  <Image src="/images/ak.png" alt="Akreditasi" width={96} height={96} className="w-24 h-24 object-contain shrink-0" />
                   <div>
                     <h3 className="font-bold text-gray-900 text-xl">Terakreditasi Resmi</h3>
                   </div>
