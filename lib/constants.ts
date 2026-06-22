@@ -9,7 +9,11 @@ export const SITE_CONFIG = {
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://pkbmsehaticikarang.sch.id',
   locale: 'id_ID',
   email: 'pkbmsehati25@gmail.com',
-  phone: '+6281385700823',
+  phones: [
+    '+62 813-8570-0823',
+    '+62 815-4846-7000',
+    '+62 812-9040-2452'
+  ],
   address: {
     street: 'Perum CINITY Blok E1A No.12D',
     city: 'Cikarang Utara',
@@ -191,6 +195,41 @@ export const PROGRAMS = [
       'Pengembangan potensi maksimal sesuai kemampuan',
       'Peningkatan kemandirian dan interaksi sosial',
       'Sertifikat keikutsertaan program'
+    ],
+    enrollmentStatus: 'open' as const,
+  },
+  {
+    id: 'tk-inklusif',
+    slug: 'tk-inklusif',
+    title: 'TK Inklusif Sehati',
+    subtitle: 'Pendidikan Anak Usia Dini Inklusif',
+    description: 'Program pendidikan anak usia dini yang memberikan kesempatan belajar bagi semua anak, baik anak reguler maupun anak berkebutuhan khusus, dalam lingkungan yang ramah, aman, dan menyenangkan. Pembelajaran dilakukan melalui kegiatan bermain sambil belajar.',
+    aims: 'Mengembangkan kemampuan bahasa, motorik, sosial, emosional, kemandirian, dan kesiapan memasuki jenjang pendidikan berikutnya.',
+    duration: 'Sesuai jenjang',
+    startAge: 3,
+    schedule: 'Senin - Jumat',
+    capacity: 20,
+    requirements: [
+      'Anak usia pra-sekolah',
+      'Asesmen awal untuk anak berkebutuhan khusus'
+    ],
+    learningMaterials: [
+      'Pembelajaran berbasis bermain',
+      'Lingkungan inklusif dan ramah anak',
+      'Pendampingan sesuai kebutuhan peserta didik',
+      'Pengembangan karakter dan kemandirian',
+      'Kolaborasi aktif dengan orang tua'
+    ],
+    modules: [
+      'Kemampuan bahasa',
+      'Motorik',
+      'Sosial & emosional',
+      'Kemandirian',
+      'Kesiapan pendidikan berikutnya'
+    ],
+    graduateResults: [
+      'Kemandirian anak',
+      'Kesiapan masuk jenjang SD'
     ],
     enrollmentStatus: 'open' as const,
   },

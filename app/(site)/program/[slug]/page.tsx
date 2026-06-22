@@ -310,7 +310,11 @@ export default function ProgramDetailPage({
               <h2 className="mb-10 text-center text-3xl font-extrabold text-gray-900">
                 Lulusan Akan Memiliki
               </h2>
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div className={`grid gap-6 ${
+                (program as any).graduateResults.length === 2
+                  ? 'sm:grid-cols-2 max-w-2xl mx-auto'
+                  : 'md:grid-cols-2 lg:grid-cols-3'
+              }`}>
                 {(program as any).graduateResults.map((result: string, idx: number) => (
                   <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center flex flex-col items-center gap-4 hover:-translate-y-1 transition-transform">
                     <div className={`w-14 h-14 rounded-full flex items-center justify-center ${sectionBgSoft} ${primaryText}`}>
