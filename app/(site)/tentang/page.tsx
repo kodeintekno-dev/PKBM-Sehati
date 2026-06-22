@@ -47,15 +47,13 @@ export default function TentangKamiPage() {
                     <h2 className="text-3xl font-extrabold text-gray-900">Sejarah Singkat</h2>
                   </div>
                   
-                  {/* Sejarah Singkat Image */}
-                  <div className="w-full mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100 flex flex-col">
+                  {/* Sejarah Singkat Image (Sementara di-hide) */}
+                  <div className="hidden relative w-full h-48 mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100">
                     <Image
                       src="/images/sejarah singkat.png"
                       alt="Sejarah Singkat PKBM Sehati"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   
