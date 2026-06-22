@@ -219,6 +219,25 @@ npm start
 - [MDX](https://mdxjs.com)
 - [React Hook Form](https://react-hook-form.com)
 
+## 🔄 Update dari Upstream
+
+Jika Anda menggunakan hasil *fork*, berikut cara menarik *update* terbaru dari repositori asli (*upstream*):
+
+```bash
+# 1. Tambahkan remote upstream (hanya perlu dilakukan sekali)
+git remote add upstream https://github.com/MuhammadRpr/PKBM-Sehati.git
+
+# 2. Ambil perubahan terbaru
+git fetch upstream
+
+# 3. Pastikan berada di branch yang tepat, lalu gabungkan
+git checkout main
+git merge upstream/main
+
+# 4. Push update tersebut ke repositori fork Anda (origin)
+git push origin main
+```
+
 ## 🤝 Contributing
 
 1. Create feature branch (`git checkout -b feature/AmazingFeature`)
