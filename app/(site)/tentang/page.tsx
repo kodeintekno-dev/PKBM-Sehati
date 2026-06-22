@@ -48,12 +48,23 @@ export default function TentangKamiPage() {
                   </div>
                   
                   {/* Sejarah Singkat Image */}
+<<<<<<< HEAD
                   <div className="relative w-full h-48 mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100">
                     <Image
                       src="/images/sejarah singkat.png"
                       alt="Sejarah Singkat PKBM Sehati"
                       fill
                       className="object-cover"
+=======
+                  <div className="w-full mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100 flex flex-col">
+                    <Image
+                      src="/images/sejarah singkat.png"
+                      alt="Sejarah Singkat PKBM Sehati"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="w-full h-full object-cover"
+>>>>>>> revisi
                     />
                   </div>
                   
