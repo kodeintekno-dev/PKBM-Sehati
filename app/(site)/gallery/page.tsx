@@ -35,6 +35,15 @@ export default function GalleryPage() {
     { id: 19, image: '/images/g19.png', alt: 'Gallery Image 19' },
     { id: 20, image: '/images/g20.png', alt: 'Gallery Image 20' },
     { id: 21, image: '/images/g21.jpeg', alt: 'Gallery Image 21' },
+    { id: 22, image: '/images/g22.jpeg', alt: 'Gallery Image 22' },
+    { id: 23, image: '/images/g23.jpeg', alt: 'Gallery Image 23' },
+    { id: 24, image: '/images/g24.jpeg', alt: 'Gallery Image 24' },
+    { id: 25, image: '/images/g25.jpeg', alt: 'Gallery Image 25' },
+    { id: 26, image: '/images/g26.jpeg', alt: 'Gallery Image 26' },
+    { id: 27, image: '/images/g27.jpeg', alt: 'Gallery Image 27' },
+    { id: 28, image: '/images/g28.jpeg', alt: 'Gallery Image 28' },
+    { id: 29, image: '/images/g29.jpeg', alt: 'Gallery Image 29' },
+    { id: 30, image: '/images/g30.jpeg', alt: 'Gallery Image 30' },
   ];
 
   return (

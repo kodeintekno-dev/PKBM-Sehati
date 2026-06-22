@@ -129,12 +129,17 @@ export function Footer() {
                 </li>
                 <li>
                   <span className="font-medium">Telepon:</span>{' '}
-                  <a
-                    href={`tel:${SITE_CONFIG.phone}`}
-                    className="text-[#1A63AB] hover:underline"
-                  >
-                    {SITE_CONFIG.phone}
-                  </a>
+                  <div className="flex flex-col gap-1 mt-1">
+                    {SITE_CONFIG.phones.map((phone, idx) => (
+                      <a
+                        key={idx}
+                        href={`tel:${phone.replace(/[^+\d]/g, '')}`}
+                        className="text-[#1A63AB] hover:underline inline-block"
+                      >
+                        {phone}
+                      </a>
+                    ))}
+                  </div>
                 </li>
                 <li>
                   <span className="font-medium">Lokasi:</span>

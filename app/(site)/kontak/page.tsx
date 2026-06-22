@@ -88,12 +88,17 @@ export default function KontakPage() {
                     <h3 className="mb-1 font-bold text-gray-900 text-lg">
                       Nomor Telepon
                     </h3>
-                    <a
-                      href={`tel:${SITE_CONFIG.phone}`}
-                      className="text-[#1A63AB] hover:underline text-lg font-medium"
-                    >
-                      {SITE_CONFIG.phone}
-                    </a>
+                    <div className="flex flex-col gap-1 mt-1">
+                      {SITE_CONFIG.phones.map((phone, idx) => (
+                        <a
+                          key={idx}
+                          href={`tel:${phone.replace(/[^+\d]/g, '')}`}
+                          className="text-[#1A63AB] hover:underline text-lg font-medium"
+                        >
+                          {phone}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
 

@@ -48,14 +48,7 @@ export default function TentangKamiPage() {
                   </div>
                   
                   {/* Sejarah Singkat Image */}
-<<<<<<< HEAD
-                  <div className="relative w-full h-48 mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100">
-                    <Image
-                      src="/images/sejarah singkat.png"
-                      alt="Sejarah Singkat PKBM Sehati"
-                      fill
-                      className="object-cover"
-=======
+                  {/* Sejarah Singkat Image */}
                   <div className="w-full mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100 flex flex-col">
                     <Image
                       src="/images/sejarah singkat.png"
@@ -64,16 +57,18 @@ export default function TentangKamiPage() {
                       height={0}
                       sizes="100vw"
                       className="w-full h-full object-cover"
->>>>>>> revisi
                     />
                   </div>
                   
                   <div className="space-y-4 text-gray-700 text-base md:text-lg leading-relaxed">
                     <p>
-                      PKBM SEHATI didirikan pada awal era 2000-an untuk memberikan <strong>akses pendidikan setara dan bermutu bagi masyarakat</strong>, khususnya bagi mereka yang tidak berkesempatan menyelesaikan jalur sekolah formal.
+                      PKBM SEHATI dirintis pada 2019 dan berizin resmi pada 2022. Kami hadir untuk memberikan akses pendidikan yang layak, berkualitas, dan inklusif bagi semua kalangan.
                     </p>
                     <p>
-                      Berawal dari kelompok belajar kecil, dedikasi para pendidik dan kolaborasi dengan masyarakat mengantarkan PKBM SEHATI tumbuh resmi menjadi pusat belajar non-formal. Kami terus bertransformasi membekali lulusan dengan keterampilan hidup (life skills) agar warga belajar mandiri dan siap berdaya saing.
+                      Kami menyediakan Program Kesetaraan (Paket A, B, C), Pendidikan Inklusif, serta Unit Layanan Disabilitas (Terapi Wicara, Okupasi, Fisioterapi) dan pengembangan keterampilan vokasi.
+                    </p>
+                    <p className="font-bold text-[#1A63AB]">
+                      PKBM SEHATI — Solusi untuk Masa Depan Lebih Baik.
                     </p>
                   </div>
                 </div>

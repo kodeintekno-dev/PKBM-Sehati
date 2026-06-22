@@ -97,12 +97,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="flex flex-wrap justify-center gap-8">
             {PROGRAMS.map((program) => (
-              <ProgramCard
-                key={program.id}
-                {...program}
-              />
+              <div key={program.id} className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]">
+                <ProgramCard {...program} />
+              </div>
             ))}
           </div>
         </Container>
