@@ -21,6 +21,69 @@ export default function Home() {
       {/* Visi & Misi Section */}
       <VisiMisiSection />
 
+      {/* Section Penjelasan Pembelajaran */}
+      <section className="py-16 md:py-24 bg-white relative overflow-hidden">
+        <Container>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Teks Penjelasan */}
+            <div className="space-y-6">
+              <span className="inline-block py-1 px-3 rounded-full bg-blue-100 text-[#1A63AB] text-sm font-semibold tracking-wider uppercase mb-2">
+                Metode Pembelajaran
+              </span>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                Pembelajaran Fleksibel, Nyaman, dan Terarah
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                PKBM Sehati berkomitmen menyediakan lingkungan belajar non-formal yang inklusif dan ramah bagi semua kalangan. Kami menyusun metode pembelajaran adaptif yang memadukan materi akademis wajib dengan pelatihan keterampilan praktis (life skills), membantu setiap warga belajar meraih impian mereka tanpa terhalang batasan usia atau waktu.
+              </p>
+              
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-blue-100 text-[#1A63AB] flex items-center justify-center shrink-0 mt-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900">Jadwal Fleksibel</h4>
+                    <p className="text-gray-600 text-sm">Dirancang khusus agar warga belajar dapat membagi waktu dengan pekerjaan atau kesibukan lainnya.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-blue-100 text-[#1A63AB] flex items-center justify-center shrink-0 mt-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900">Fasilitas & Praktek Kerja Nyata</h4>
+                    <p className="text-gray-600 text-sm">Didukung sarana prasarana yang memadai dan pelatihan keterampilan untuk mempersiapkan masa depan.</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-blue-100 text-[#1A63AB] flex items-center justify-center shrink-0 mt-1">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900">Pendidik Berpengalaman & Peduli</h4>
+                    <p className="text-gray-600 text-sm">Proses belajar dibimbing oleh tutor yang memahami kebutuhan pendidikan non-formal dan perkembangan karakter warga belajar.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            {/* Gambar Penjelasan */}
+            <div className="w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-gray-50 flex flex-col">
+              <Image
+                src="/images/penjelasan.jpeg"
+                alt="Penjelasan Pembelajaran PKBM Sehati"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-full h-auto"
+                priority
+              />
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Programs Section */}
       <section className="bg-gray-50 py-16 md:py-24">
         <Container>
