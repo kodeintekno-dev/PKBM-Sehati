@@ -3,7 +3,7 @@ import { VisiMisiSection } from '@/components/sections/VisiMisiSection';
 import { Metadata } from 'next';
 import { History, Award } from 'lucide-react';
 import Image from 'next/image';
-
+import { SejarahText } from '@/components/sections/SejarahText';
 export const metadata: Metadata = {
   title: 'Tentang Kami',
   description: 'Sejarah singkat, Akreditasi, dan Visi Misi PKBM SEHATI.',
@@ -31,7 +31,7 @@ export default function TentangKamiPage() {
       {/* Sejarah & Akreditasi */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
-          <div className="grid md:grid-cols-2 gap-12 items-stretch">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             
             {/* Sejarah Singkat */}
             <div className="bg-[#F0F9FF] rounded-3xl p-8 md:p-10 border border-blue-50 shadow-sm relative overflow-hidden flex flex-col justify-between">
@@ -60,17 +60,7 @@ export default function TentangKamiPage() {
                     />
                   </div>
                   
-                  <div className="space-y-4 text-gray-700 text-base md:text-lg leading-relaxed">
-                    <p>
-                      PKBM SEHATI dirintis pada 2019 dan berizin resmi pada 2022. Kami hadir untuk memberikan akses pendidikan yang layak, berkualitas, dan inklusif bagi semua kalangan.
-                    </p>
-                    <p>
-                      Kami menyediakan Program Kesetaraan (Paket A, B, C), Pendidikan Inklusif, serta Unit Layanan Disabilitas (Terapi Wicara, Okupasi, Fisioterapi) dan pengembangan keterampilan vokasi.
-                    </p>
-                    <p className="font-bold text-[#1A63AB]">
-                      PKBM SEHATI — Solusi untuk Masa Depan Lebih Baik.
-                    </p>
-                  </div>
+                  <SejarahText />
                 </div>
 
                 {/* Owner Profile */}
