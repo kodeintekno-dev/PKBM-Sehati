@@ -4,8 +4,19 @@ import { SITE_CONFIG } from '@/lib/constants';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Hubungi Kami',
-  description: 'Hubungi PKBM SEHATI untuk informasi pendaftaran dan pertanyaan lainnya.',
+  title: 'Kontak & Pendaftaran PKBM SEHATI Cikarang',
+  description: 'Hubungi PKBM SEHATI Cikarang untuk info pendaftaran Paket A, B, C, program inklusif, dan TK Inklusif.',
+  keywords: ['kontak', 'pendaftaran', 'PKBM SEHATI', 'Cikarang', 'informasi'],
+  openGraph: {
+    title: 'Kontak & Pendaftaran PKBM SEHATI Cikarang',
+    description: 'Hubungi PKBM SEHATI Cikarang untuk info pendaftaran Paket A, B, C, program inklusif, dan TK Inklusif.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Kontak & Pendaftaran PKBM SEHATI Cikarang',
+    description: 'Hubungi PKBM SEHATI Cikarang untuk info pendaftaran Paket A, B, C, program inklusif, dan TK Inklusif.',
+  },
 };
 
 /**

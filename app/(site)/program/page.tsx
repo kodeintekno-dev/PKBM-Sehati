@@ -5,9 +5,19 @@ import { PROGRAMS } from '@/lib/constants';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Program Pendidikan',
-  description:
-    'Jelajahi program-program pendidikan kesetaraan kami: Paket A (SD), Paket B (SMP), dan Paket C (SMA).',
+  title: 'Program Pendidikan Kesetaraan PKBM SEHATI Cikarang',
+  description: 'Pilihan program Paket A, Paket B, Paket C, Program Inklusif, dan TK Inklusif di PKBM SEHATI, Cikarang Utara, Kabupaten Bekasi.',
+  keywords: ['program pendidikan', 'paket A', 'paket B', 'paket C', 'program inklusif', 'PKBM SEHATI', 'Cikarang'],
+  openGraph: {
+    title: 'Program Pendidikan Kesetaraan PKBM SEHATI Cikarang',
+    description: 'Pilihan program Paket A, Paket B, Paket C, Program Inklusif, dan TK Inklusif di PKBM SEHATI, Cikarang Utara, Kabupaten Bekasi.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Program Pendidikan Kesetaraan PKBM SEHATI Cikarang',
+    description: 'Pilihan program Paket A, Paket B, Paket C, Program Inklusif, dan TK Inklusif di PKBM SEHATI, Cikarang Utara, Kabupaten Bekasi.',
+  },
 };
 
 /**

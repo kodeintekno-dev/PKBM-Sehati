@@ -4,6 +4,7 @@ import { ProgramCard } from '@/components/sections/ProgramCard';
 import { PROGRAMS } from '@/lib/constants';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import { VisiMisiSection } from '@/components/sections/VisiMisiSection';
 
@@ -11,6 +12,22 @@ import { VisiMisiSection } from '@/components/sections/VisiMisiSection';
  * Homepage
  * Main landing page with hero, programs, and latest articles
  */
+export const metadata: Metadata = {
+  title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
+  description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
+  keywords: ['pendidikan kesetaraan', 'PKBM Cikarang', 'paket A', 'paket B', 'paket C', 'sekolah inklusif Bekasi', 'pendidikan non-formal Cikarang'],
+  openGraph: {
+    title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
+    description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
+    description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
+  },
+};
+
 export default function Home() {
 
   return (

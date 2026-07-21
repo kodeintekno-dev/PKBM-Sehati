@@ -30,9 +30,31 @@ export async function generateMetadata({
     return { title: 'Program tidak ditemukan' };
   }
 
+  const title = `${program.title} Setara ${program.ijazah} di PKBM SEHATI Cikarang`;
+  const description = program.description;
+
   return {
-    title: program.title,
-    description: program.description,
+    title,
+    description,
+    keywords: [
+      `${program.title}`,
+      `${program.ijazah}`,
+      'PKBM SEHATI',
+      'Cikarang',
+      'pendidikan kesetaraan',
+      'pendaftaran',
+      'Bekasi',
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 

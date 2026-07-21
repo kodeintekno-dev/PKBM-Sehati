@@ -5,8 +5,19 @@ import { History, Award } from 'lucide-react';
 import Image from 'next/image';
 import { SejarahText } from '@/components/sections/SejarahText';
 export const metadata: Metadata = {
-  title: 'Tentang Kami',
-  description: 'Sejarah singkat, Akreditasi, dan Visi Misi PKBM SEHATI.',
+  title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+  description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+  keywords: ['PKBM SEHATI', 'sejarah PKBM', 'akreditasi', 'visi misi', 'Cikarang', 'Bekasi'],
+  openGraph: {
+    title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+    description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+    description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+  },
 };
 
 /**
