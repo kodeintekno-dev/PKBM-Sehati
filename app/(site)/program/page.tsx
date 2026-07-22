@@ -24,8 +24,59 @@ export const metadata: Metadata = {
  * Program List Page
  */
 export default function ProgramPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    'mainEntity': [
+      {
+        '@type': 'Question',
+        'name': 'Berapa biaya pendaftaran?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Biaya pendaftaran dirancang sesuai dengan kemampuan masyarakat. Hubungi kami untuk detail lebih lanjut tentang biaya pendaftaran dan cicilan bulanan.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Apakah ada syarat usia tertentu?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Tidak ada batasan usia maksimal untuk mendaftar. Paket A dimulai dari usia 6 tahun, Paket B dari 12 tahun, dan Paket C dari 15 tahun. Namun, bagi yang lebih tua tetap bisa mendaftar!'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Berapa lama program ini?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Setiap paket dirancang untuk diselesaikan dalam 2 tahun dengan jadwal fleksibel (malam atau sore) sesuai kebutuhan Anda.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Apakah sertifikat diakui?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Ya! Sertifikat PKBM SEHATI adalah sertifikat resmi yang diakui oleh pemerintah dan dapat digunakan untuk melanjutkan ke jenjang pendidikan berikutnya atau melamar pekerjaan.'
+        }
+      },
+      {
+        '@type': 'Question',
+        'name': 'Bagaimana proses pendaftaran?',
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': 'Proses pendaftaran mudah! Kunjungi kantor kami, isi formulir pendaftaran, dan Anda siap memulai. Tidak ada tes masuk yang rumit – kami menerima semua orang dengan motivasi belajar.'
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Header */}
       <section className="bg-gray-50 pt-16 pb-12 md:pt-24 md:pb-16 lg:pt-32 lg:pb-20">
         <Container className="text-center">
