@@ -50,6 +50,9 @@ export async function generateMetadata({
       description,
       type: 'website',
     },
+    alternates: {
+      canonical: `/program/${params.slug}`,
+    },
     twitter: {
       card: 'summary_large_image',
       title,

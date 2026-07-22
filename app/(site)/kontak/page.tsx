@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     description: 'Hubungi PKBM SEHATI Cikarang untuk info pendaftaran Paket A, B, C, program inklusif, dan TK Inklusif.',
     type: 'website',
   },
+  alternates: {
+    canonical: '/kontak',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Kontak & Pendaftaran PKBM SEHATI Cikarang',

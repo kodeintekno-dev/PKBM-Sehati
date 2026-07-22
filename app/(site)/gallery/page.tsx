@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     description: 'Dokumentasi kegiatan belajar, fasilitas, dan suasana PKBM SEHATI di Cikarang Utara, Kabupaten Bekasi.',
     type: 'website',
   },
+  alternates: {
+    canonical: '/gallery',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Galeri Kegiatan PKBM SEHATI Cikarang',

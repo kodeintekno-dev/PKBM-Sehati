@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
     type: 'website',
   },
+  alternates: {
+    canonical: '/',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',

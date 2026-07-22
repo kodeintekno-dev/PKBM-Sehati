@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
     type: 'website',
   },
+  alternates: {
+    canonical: '/tentang',
+  },
   twitter: {
     card: 'summary_large_image',
     title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
