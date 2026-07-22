@@ -3,8 +3,19 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Gallery',
-  description: 'Galeri foto dokumentasi kegiatan PKBM SEHATI.',
+  title: 'Galeri Kegiatan PKBM SEHATI Cikarang',
+  description: 'Dokumentasi kegiatan belajar, fasilitas, dan suasana PKBM SEHATI di Cikarang Utara, Kabupaten Bekasi.',
+  keywords: ['galeri', 'kegiatan', 'PKBM SEHATI', 'Cikarang', 'dokumentasi'],
+  openGraph: {
+    title: 'Galeri Kegiatan PKBM SEHATI Cikarang',
+    description: 'Dokumentasi kegiatan belajar, fasilitas, dan suasana PKBM SEHATI di Cikarang Utara, Kabupaten Bekasi.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Galeri Kegiatan PKBM SEHATI Cikarang',
+    description: 'Dokumentasi kegiatan belajar, fasilitas, dan suasana PKBM SEHATI di Cikarang Utara, Kabupaten Bekasi.',
+  },
 };
 
 /**

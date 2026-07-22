@@ -8,18 +8,18 @@ export function generateSiteMetadata(): Metadata {
       icon: '/images/logofinal.png?v=update-1',
     },
     title: {
-      template: '%s | PKBM SEHATI',
-      default: 'PKBM SEHATI - Pendidikan Kesetaraan untuk Semua',
+      template: '%s | PKBM SEHATI Cikarang',
+      default: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
     },
-    description: SITE_CONFIG.description,
+    description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
     keywords: [
-      'pendidikan',
-      'non-formal',
-      'kesetaraan',
-      'kupang',
-      'paket-a',
-      'paket-b',
-      'paket-c',
+      'pendidikan kesetaraan',
+      'PKBM Cikarang',
+      'paket A',
+      'paket B',
+      'paket C',
+      'sekolah inklusif Bekasi',
+      'pendidikan non-formal Cikarang',
     ],
     robots: {
       index: true,
@@ -29,14 +29,14 @@ export function generateSiteMetadata(): Metadata {
       type: 'website',
       locale: SITE_CONFIG.locale,
       url: SITE_CONFIG.url,
-      title: 'PKBM SEHATI - Pendidikan Kesetaraan untuk Semua',
-      description: SITE_CONFIG.description,
+      title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
+      description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
       siteName: SITE_CONFIG.name,
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'PKBM SEHATI',
-      description: SITE_CONFIG.description,
+      title: 'PKBM SEHATI Cikarang – Pendidikan Kesetaraan Paket A, B, C & Inklusif',
+      description: 'PKBM SEHATI Cikarang menyelenggarakan pendidikan kesetaraan Paket A, B, C, program inklusif, dan TK Inklusif untuk semua kalangan di Cikarang Utara, Kabupaten Bekasi.',
     },
   };
 }
@@ -76,8 +76,9 @@ export function generateOrganizationSchema() {
     '@type': 'EducationalOrganization',
     name: 'PKBM SEHATI',
     url: SITE_CONFIG.url,
-    logo: `${SITE_CONFIG.url}/logo.svg`,
-    description: SITE_CONFIG.description,
+    logo: `${SITE_CONFIG.url}/images/logofinal.png`,
+    image: `${SITE_CONFIG.url}/images/logofinal.png`,
+    description: 'Pusat Kegiatan Belajar Masyarakat penyelenggara pendidikan kesetaraan Paket A, B, C, dan program inklusif di Cikarang, Kabupaten Bekasi.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: SITE_CONFIG.address.street,
@@ -86,9 +87,21 @@ export function generateOrganizationSchema() {
       postalCode: SITE_CONFIG.address.postalCode,
       addressCountry: SITE_CONFIG.address.country,
     },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      telephone: SITE_CONFIG.phones[0],
+      email: SITE_CONFIG.email,
+    },
     areaServed: 'ID',
     email: SITE_CONFIG.email,
     telephone: SITE_CONFIG.phones[0],
+    sameAs: [
+      'https://www.instagram.com/sehati.pkbm',
+      'https://www.facebook.com/people/Pkbm-Sehati/pfbid0bDoehZznEc1M1B4wgpGaKwfQ17s7yEA3Yd64RCyF9FkVCqQBCwVwqEzsfJXXngL1l/',
+      'https://www.tiktok.com/@pkbm.sehati1',
+      'https://www.youtube.com/@pkbmsehati',
+    ],
   };
 }
 

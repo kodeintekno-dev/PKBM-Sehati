@@ -5,8 +5,19 @@ import { History, Award } from 'lucide-react';
 import Image from 'next/image';
 import { SejarahText } from '@/components/sections/SejarahText';
 export const metadata: Metadata = {
-  title: 'Tentang Kami',
-  description: 'Sejarah singkat, Akreditasi, dan Visi Misi PKBM SEHATI.',
+  title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+  description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+  keywords: ['PKBM SEHATI', 'sejarah PKBM', 'akreditasi', 'visi misi', 'Cikarang', 'Bekasi'],
+  openGraph: {
+    title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+    description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tentang PKBM SEHATI Cikarang | Sejarah, Akreditasi & Visi Misi',
+    description: 'Sejarah singkat, akreditasi B (Baik) dari BAN PAUD/PNF, serta visi misi PKBM SEHATI, lembaga pendidikan kesetaraan inklusif di Cikarang.',
+  },
 };
 
 /**
@@ -46,17 +57,13 @@ export default function TentangKamiPage() {
                     </div>
                     <h2 className="text-3xl font-extrabold text-gray-900">Sejarah Singkat</h2>
                   </div>
-                  
-                  {/* Sejarah Singkat Image */}
                   {/* Sejarah Singkat Image */}
                   <div className="w-full mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100 flex flex-col">
                     <Image
                       src="/images/sejarah singkat.png"
                       alt="Sejarah Singkat PKBM Sehati"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
                     />
                   </div>
                   

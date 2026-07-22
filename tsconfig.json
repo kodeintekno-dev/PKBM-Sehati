@@ -24,8 +24,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
-    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "ignoreDeprecations": "5.0",
     "paths": {
       "@/*": [
         "./*"
