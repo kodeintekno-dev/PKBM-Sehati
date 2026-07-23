@@ -46,8 +46,8 @@ export default function TentangKamiPage() {
             
             {/* Sejarah Singkat */}
             <div className="bg-[#F0F9FF] rounded-3xl p-8 md:p-10 border border-blue-50 shadow-sm relative overflow-hidden flex flex-col justify-between">
-              <div className="absolute -right-6 -top-6 text-blue-100/50">
-                <History className="w-48 h-48" />
+              <div className="absolute right-4 top-4 text-blue-100/50 pointer-events-none">
+                <History className="w-32 h-32 md:w-40 md:h-40" />
               </div>
               <div className="relative z-10 flex-grow flex flex-col justify-between">
                 <div>
@@ -58,7 +58,7 @@ export default function TentangKamiPage() {
                     <h2 className="text-3xl font-extrabold text-gray-900">Sejarah Singkat</h2>
                   </div>
                   {/* Sejarah Singkat Image */}
-                  <div className="w-full mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100 flex flex-col">
+                  <div className="relative w-full h-64 md:h-72 mb-6 rounded-2xl overflow-hidden shadow-md border border-blue-100/50 bg-gray-100">
                     <Image
                       src="/images/sejarah singkat.png"
                       alt="Sejarah Singkat PKBM Sehati"
@@ -90,8 +90,8 @@ export default function TentangKamiPage() {
 
             {/* Akreditasi */}
             <div className="bg-amber-50 rounded-3xl p-8 md:p-10 border border-amber-100 shadow-sm relative overflow-hidden flex flex-col">
-              <div className="absolute -right-6 -top-6 text-amber-200/40">
-                <Award className="w-48 h-48" />
+              <div className="absolute right-4 top-4 text-amber-200/40 pointer-events-none">
+                <Award className="w-32 h-32 md:w-40 md:h-40" />
               </div>
               <div className="relative z-10 flex-grow">
                 <div className="flex items-center gap-3 mb-8">
